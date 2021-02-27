@@ -58,7 +58,11 @@ function App() {
         id="svgContainer"
         dangerouslySetInnerHTML={{ __html: svgString }}
       ></div>
-      <canvas width="1116.606" height="612.147"></canvas>
+      <canvas
+        style={{ width: '100vw' }}
+        width="1116.606"
+        height="612.147"
+      ></canvas>
       <form
         onSubmit={(e) => {
           e.preventDefault()
